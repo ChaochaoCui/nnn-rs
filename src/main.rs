@@ -1,3 +1,9 @@
+use cursive::views::TextView;
+
 fn main() {
-    println!("Hello, world!");
+    let mut siv = cursive::default();
+
+    siv.add_layer(TextView::new("Hello World"));
+
+    siv.run();
 }

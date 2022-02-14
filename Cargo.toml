@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 clap = { version = "3.0.14", features = ["derive"] }
 toml_edit = { version = "0.13.4" }
-pancurses = { version = "0.17.0" }
+cursive= { version = "0.17" }
